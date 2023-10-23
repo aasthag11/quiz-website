@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #d0e9e9;
+}
+#main_section{
+    display: flex;
+    height: 100vh;
+}
+#left{
+    width: 50%;
+}
+#left img{
+    width: 100% ;
+    height: 100vh;
+}
+#details{
+    height: 70%;
+    margin-left: 14vw;
+    margin-top: 6vw;
+    width: 25vw;
+    display: grid;
+}
+h1{
+    text-align: center;
+    font-family: 'croissant one';
+    font-size: 300%;
+}
+form{
+    display: grid;
+    font-size: 150%;
+}
+#button{
+    background-color: #d0aad1;
+    font-size: 150%;
+    font-weight: bolder;
+    font-family: 'croissant one';
+    width: 100%;
+    height: 50px;
+    border-width: 0px;
+    border-radius:  5px;;
+}
+.data{
+    height: 40px;
+}
+label{
+    font-size: 150%;
+    font-family: 'croissant one';
+}
+#button:hover{
+    background-color:  #d73edd;
+}
+a{
+    text-decoration: none;
+}
